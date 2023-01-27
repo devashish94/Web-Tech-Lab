@@ -1,4 +1,4 @@
-# ignore not needed java files
+# ignore not needed java files [all of this not need in this Repo]
 Java-Coding/out/
 */out/*
 *.class
