@@ -1,37 +1,98 @@
 .main-body {
-  display: inline-block;
+  width: 1500px;
+  height: 550px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
-.samsung {
-  height: 100px;
-  width: auto;
-  object-fit: fill;
-  border-width: 10;
-  border-style:dotted;
-  display: inline-block;
+.divider {
+  width: 650px;
+}
+
+.pixel,
+.samsung,
+.iphone {
+  object-fit: contain;
+  /* border-style:dotted;
+  border-bottom: 100px;
+  border-color: chartreuse;  */
+  max-width: max-content;
+  max-height: max-content;
+  position:relative;
+  padding-left: 150px;
+}
+
+.pixel-photo {
+  height: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: contain;
+  transform: scale(1);
+  position: relative;
+  padding-left: 20px;
+}
+.iphone-photo,
+.samsung-photo {
+  height: 200px;
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: contain;
+  transform: scale(1.6);
+  position: relative;
 }
 
 .left {
-  width: 300px;
-  height: 100px;
-  display: inline-block;
-  font-size: xx-large;
-  object-position: left;
+  background-color: rgb(163,163,196);
+  width: 1050px;
+  height: 850px;
+  float: left;
+}
+
+.shopping-cart {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  color: rgb(229,229,219);
+  font-size: 80px; 
+  float:inline-start;
+}
+
+.list {
+  float: inline-end;
 }
 
 .right {
-  width: 200px;
-  height: 100px;
-  display: inline-block;
-  font-size: xx-large;
-  object-position: right;
+  background-color: rgb(79, 79, 127);
+  width: 450px;
+  height: 850px;
+  float: right;
 }
 
-.shopping-heading {
-  font-size: px;
+.summary-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 50px;
+  padding-left: 110px;
+  color: rgb(216,216,255);
+  text-align: left;
+  font-size: 60px;
+  display: block;
 }
 
 .details-button {
-  object-position: bottom;
-  display: inline;
+  padding-top: 600px;
+  padding-left: 90px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.button {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: rgb(205,194,216);
+  width: 300px;
+  height: 66px;
+  border-radius: 10px;
+  font-size: 28px;
 }
