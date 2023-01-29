@@ -54,7 +54,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 40px;
   padding-left: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 27px;
   color: rgb(229,229,219);
   font-size: 80px; 
   float:inline-start;
@@ -74,25 +74,26 @@
 .summary-heading {
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 50px;
-  padding-left: 110px;
+  padding-left: 67px;
   color: rgb(216,216,255);
   text-align: left;
-  font-size: 60px;
+  font-size: 50px;
   display: block;
 }
 
 .details-button {
-  padding-top: 600px;
-  padding-left: 90px;
+  padding-top: 630px;
+  padding-left: 115px;
   padding-bottom: 100px;
   display: block;
 }
 
 .button {
+  color: rgb(50,50,71);
   font-family: 'Source Sans Pro', sans-serif;
   background-color: rgb(205,194,216);
-  width: 300px;
-  height: 66px;
+  width: 240px;
+  height: 55px;
   border-radius: 10px;
-  font-size: 28px;
+  font-size: 24px;
 }
