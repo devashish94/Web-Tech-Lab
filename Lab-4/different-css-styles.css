@@ -1,6 +1,2 @@
-#heading-three {
-  color:rgb(226,204,247);
-}
-.paragraph-three {
-  color: rgb(177,236,122);
-}
+#heading-three {color:rgb(226,204,247);} /* '#' selector */
+.paragraph-three {color: rgb(177,236,122);} /* '.' selector */
