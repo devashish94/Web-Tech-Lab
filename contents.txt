@@ -1,0 +1,4 @@
+// Lab-4 Exercise:
+	- The design and implementation of CSS validation into HTML.
+// Lab-5
+	- JavaScript introduction
