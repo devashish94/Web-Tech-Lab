@@ -1,0 +1,36 @@
+.main {
+    margin: auto;
+    height: 500px;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.heading {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}   
+
+li {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.name_field, .year_field {
+    display: block;
+    padding-left: 20px;
+    padding-bottom:15px;
+}
+
+.field_contents {
+    display: block;
+    padding-bottom: 10px;
+}
+
+select {
+    display: block; 
+    width: 60px; 
+    height:20px;
+    font-size: 13px;
+}

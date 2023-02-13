@@ -2,3 +2,9 @@
 	- The design and implementation of CSS validation into HTML.
 // Lab-5
 	- JavaScript introduction
+// Lab-6
+    - Form Validation (process where web-page checks correctness of info by entered user)
+    - Registration Form [Exercise]
+        - It should have a email field
+        - It should be validated [Eg- Name should be String, email proper format]
+        - After Submit button is clicked. It should display that the form has been submitted.
