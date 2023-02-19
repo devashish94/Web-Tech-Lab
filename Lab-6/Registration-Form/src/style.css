@@ -56,11 +56,6 @@
     font-family: 'OpenSans', sans-serif; 
 }
 
-li {
-    padding-left: 40px;
-    padding-top: 5px;
-}
-
 .text-box, .drop-down {
     position:relative;
     left: 20%;
@@ -125,6 +120,6 @@ select {
 .submit-button:active {
     background-color: #A6FFC4;
     box-shadow: 0 0px #666;
-    transform: translateY(2px);
-  }
+    transform: translateY(3px);
+}
   
