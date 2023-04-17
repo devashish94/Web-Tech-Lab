@@ -8,4 +8,10 @@
         - It should have a email field
         - It should be validated [Eg- Name should be String, email proper format]
         - After Submit button is clicked. It should display that the form has been submitted.
+// Lab-7 Calculator
 
+// Lab-8 Bootstrap Introduction
+
+// Lab-9 Bootstrap something
+
+// Lab-10 PHP introduction

@@ -1,0 +1,90 @@
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.label-radio {
+    display: flex;
+    justify-content: start;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.custom-radio {
+    padding-left: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.custom-radio:before {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.custom-radio input[type="radio"]:checked + .custom-radio:before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.custom-radio label {
+    padding-left: 35px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.custom-radio label:before {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
+
+.custom-radio input[type="radio"]:checked + label:before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.input-error {
+    border-color: #dc3545 !important;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}

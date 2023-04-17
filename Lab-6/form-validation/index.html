@@ -2,23 +2,45 @@
 <html>
     <head>
         <title>Registration Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="left">
-                <img src="muj-photo.png" alt="">
-            </div>
-            <div class="right">
-                <div class="top-text">
-                    <div class="heading">Welcome</div>
-                    <div class="sub-heading">Fill up the form to get started</div>
+        <form action="">
+            <div class="container">
+                <div class="left">
+                    <img src="muj-photo.png" alt="">
                 </div>
-                <div class="welcome-page">
-                    <input type="text" class="user-name">
+                <div class="right">
+                    <div class="top-text">
+                        <div class="heading">Welcome</div>
+                        <div class="sub-heading">Fill up the form to get started</div>
+                    </div>
+                    <div class="welcome-page" id="welcome-page">
+                        <input type="text" class="user-name" id="user-name" placeholder="Enter your Full Name"/>
+                        <input type="text" class="registration-number" id="registration-number" placeholder="Enter your Registration Number"/>
+                        <button class="next-button" onclick="showDiv()">Next</button>
+                        <!-- <input type="Submit" class="submit-button"> ONLY THE LAST PAGE WILL HAVE A SUBMIT BUTTON. REST WILL HAVE NEXT BUTTONS --> 
+                    </div>
+                    <div class="second-page" id="second-page">
+                        <div class="radio-year-values">
+                            <label for="Year" class="year-text-heading">Year</label><br>
+                            <input type="radio" id="1st" value="1st" name="year-select">
+                            <label for="1st">1st</label><br>
+                            <input type="radio" id="2nd" value="2nd" name="year-select">
+                            <label for="2nd">2nd</label><br>
+                            <input type="radio" id="3rd" value="3rd" name="year-select">
+                            <label for="3rd">3rd</label><br>
+                            <input type="radio" id="4th" value="4th" name="year-select">
+                            <label for="4th">4th</label>
+                        </div>
+                        <button class="next-button">Next</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
     </body>
 </html>
